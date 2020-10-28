@@ -15,10 +15,13 @@ public class AddFile {
 		try {
 			fos=new FileOutputStream(name);
 			Sets s=new Sets();
-			s.addset(name);
+			int a=s.addset(name);
+			if(a==1) {
 			System.out.println("File  " +name+" added Successfully");
-		} catch (FileNotFoundException e) {
-		System.out.println(e); 
+			}
+			else {
+				System.out.println("File already exist");
+			}
 		} catch (IOException e) {
 			System.out.println(e);
 		}finally {
