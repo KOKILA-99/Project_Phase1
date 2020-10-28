@@ -1,0 +1,11 @@
+package LockedMe;
+
+import java.util.TreeSet;
+
+public class Sets {
+	Set<String> file=new TreeSet<String>();
+	public void addset(String name) {
+		
+	}
+ 
+}

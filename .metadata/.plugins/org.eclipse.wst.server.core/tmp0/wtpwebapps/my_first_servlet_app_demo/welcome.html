@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Welcome Page</title>
+</head>
+<body>
+<br/>
+<h2><u>Below form is for GET Demo</u></h2>
+<form action="welcome">
+Enter Full Name <input type="text" name="fullname"><br/>
+Enter Age <input type="text" name="age"><br/>
+<input type="submit" value="Click for doGet()">
+</form>
+
+<br/>
+<br/>
+<h2><u>Below form is for POST Demo</u></h2>
+<form action="welcome" method="post">
+Enter Full Name <input type="text" name="fullname"><br/>
+Enter Age <input type="text" name="age"><br/>
+Gender <input type="radio" name="gender" value="Female"/>F &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     
+        <input type="radio" name="gender" value="Male"/>M <br/>
+Enter Contact <input type="number" name="contact"> <br/>
+Select Country <select name="country">
+				<option value="INDIA">India</option>
+				<option value="OTHER COUNTRY">Other</option>
+			</select><br/>
+Select Hobbies<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; <input type="checkbox" value="Sing" name="hobby">Singing<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; <input type="checkbox" value="Dance" name="hobby">Dancing<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; <input type="checkbox" value="Cook" name="hobby">Cooking<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; <input type="checkbox" value="Shop" name="hobby">Shopping<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; <input type="checkbox" value="Game" name="hobby">Gaming<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; <input type="checkbox" value="Other Hobby Too" name="hobby">Others<br/>
+        
+<input type="submit" value="Click for doPost()">
+</form>
+</body>
+</html>

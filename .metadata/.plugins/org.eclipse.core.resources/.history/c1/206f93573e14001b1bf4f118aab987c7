@@ -1,0 +1,12 @@
+package LockedMe;
+
+import java.util.Set;
+import java.util.TreeSet;
+public class Sets {
+	 public static final Set<String> file=new TreeSet<String>();
+	public void addset(String name) {
+		file.add(name);
+		System.out.println("the files are"+file);
+	}
+ 
+}

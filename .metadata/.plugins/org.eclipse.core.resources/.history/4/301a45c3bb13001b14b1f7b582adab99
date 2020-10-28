@@ -1,0 +1,14 @@
+package LockedMe;
+
+import java.util.Set;
+import java.util.TreeSet;
+
+public class Sets {
+	Set<String> file=new TreeSet<String>();
+	public void addset(String name) {
+		file.add(name);
+		file.containsAll(file);
+		System.out.println("the files are"+file);
+	}
+ 
+}

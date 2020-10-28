@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Servlet Demo</title>
+</head>
+<body>
+<br/>
+
+<a href="welcome.html">CLICK HERE FOR WELCOME PAGE</a>
+<br/><br/>
+
+<form action="hello">
+<input type="submit" value="Click for doGet()">
+</form>
+
+
+<br/>
+<form action="hello" method="post">
+<input type="submit" value="Click for doPost()">
+</form>
+</body>
+</html>
