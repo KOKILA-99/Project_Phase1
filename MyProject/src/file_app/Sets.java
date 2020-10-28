@@ -42,9 +42,18 @@ public class Sets {
 	        while (i.hasNext()) 
 	            System.out.println(i.next());
 	 }
-	public void addset(String name) {
-		file.add(name);
-	}
+	public int addset(String name) {
+		int a=1;
+		int c=searchset(name);
+		if(c==-1) {
+			a=1;
+			file.add(name);
+		}
+		else
+		{
+		a=0;
+		}
+		return a;
 	public void deleteset(String name) {
 		file.remove(name);
 	}
